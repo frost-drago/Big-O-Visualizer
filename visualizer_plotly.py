@@ -1,9 +1,8 @@
 # Visualizer in Plotly
 # Don't forget to dump the terminal after using this, to not encounter errors. The library is not robust.
 # Might need a few (re)tries to display the graph.
-# The reason is that Plotly randomly generate a port number, and sometimes those ports are not available.
+# The reason is that Plotly randomly generate a port number, and sometimes those ports are not available (or being used by another process).
 # As of current Plotly version, there's no way around this except rewriting the entire open_html_in_browser function hardcoded in Plotly.
-# Getting a 5-digit port number usually does the trick.
 
 import modules.commons as commons
 import msgspec

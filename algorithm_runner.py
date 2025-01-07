@@ -39,7 +39,7 @@ for num_of_data in data_range_list:
         time_start = time.time()
 
         # run an algorithm (for example, a sorting algorithm (or make your own). See more on sorting_algorithms.py.)
-        pass
+        sorting.bubble_sort(data_to_process)
 
         ########## EDITABLE 📝📝 ##########
         ########## Editable end   ##########

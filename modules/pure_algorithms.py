@@ -83,7 +83,7 @@ def pure_n_times_log_n(a_list):
     Pure O(n*log(n))
     Returns time taken.
 
-    For this one I took the same algorithm as sorting_algorihms.merge_sort.
+    For this one I took the same algorithm as sorting_algorihms.merge_sort().
     """
 
     # Direction: left to right = small to big
